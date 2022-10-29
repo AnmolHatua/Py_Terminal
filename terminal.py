@@ -14,7 +14,7 @@ host_name = socket.gethostname()
 host_ip = socket.gethostbyname(host_name)
 print("Py Terminal [ Version 1.00 ]")
 while True:
-    code = input(">>>")
+    code = input(">>> ")
     # if code != lista:
     #     print(f"'{code}' is not recognized as an command,\nUse help command.")
     if code == "ping":
